@@ -24,7 +24,7 @@ body{
   grid-template-areas:
     "header header header"
     "nav main main"
-    "footer footer footer";
+    "footpad footer footpad";
 }
 
 /***********************************
@@ -81,4 +81,8 @@ Footer
 ***********************************/
 footer{
   grid-area:footer;
+}
+
+.footpad{
+  grid-area:footpad;
 }
