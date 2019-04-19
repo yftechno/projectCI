@@ -59,22 +59,22 @@ main{
 /***********************************
 Nav-Bar
 ***********************************/
-nav{
-  grid-area:nav;
-}
+
 
 nav,a{
   all:unset;
 }
 
 nav{
+  grid-area:nav;
   display:flex;
   flex-direction:column;
+  justify-content:space-between;
+  align-content:center;
 }
 
 a{
   padding:5px;
-
 }
 /***********************************
 Footer
