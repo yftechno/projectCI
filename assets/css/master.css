@@ -91,5 +91,5 @@ footer{
 }
 
 footer, .footpad-l, .footpad-r{
-  background-color:(--color-green-a);
+  background-color:var(--color-green-a);
 }
