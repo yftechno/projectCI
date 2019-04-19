@@ -1,5 +1,6 @@
 :root{
-  --color-green-a: rgba(34,139,34, .75);
+  --color-green-a: rgba(34,139,34, .5);
+  --color-blue-a: rgba(34, 34, 139, .5);
 }
 
 /***********************************
@@ -13,7 +14,7 @@ body, html{
     user-select:none;
     font-family: 'Source Sans Pro', sans-serif;
     font-size:18px;
-    background-color:slategrey;
+    background-color:rgb(120, 150, 200);
 }
 
 body{
@@ -75,6 +76,12 @@ nav{
 
 a{
   padding:5px;
+  cursor:pointer;
+  background-color:();
+}
+
+a:hover{
+
 }
 /***********************************
 Footer
