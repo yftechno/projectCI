@@ -75,7 +75,7 @@ nav{
   align-content:center;
 }
 
-a{
+.nav-button{
   margin-left:5px;
   padding:5px;
   height:50px;
