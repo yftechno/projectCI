@@ -23,7 +23,7 @@ body{
   grid-template-rows:  300px auto  300px;
   grid-template-areas:
     "header header header"
-    ". main ."
+    "nav main main"
     ". footer .";
 }
 
@@ -56,20 +56,25 @@ main{
   grid-area:main;
 }
 
-/***
+/***********************************
 Nav-Bar
-***/
+***********************************/
+nav{
+  grid-area:nav;
+}
 
-nav,ul,li{
+nav,a{
   all:unset;
 }
 
-ul{
+nav{
   display:flex;
+  flex-direction:column;
 }
 
-li{
+a{
   padding:5px;
+
 }
 /***********************************
 Footer
