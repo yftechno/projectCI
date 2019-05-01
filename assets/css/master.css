@@ -84,7 +84,7 @@ nav{
   background-color:var(--color-blue-a);
   border:2px solid slategray;
   border-radius:20px;
-  overflow:none;
+  overflow:hidden;
 }
 
 a:hover{
