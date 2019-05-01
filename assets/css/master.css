@@ -20,7 +20,7 @@ body, html{
 
 body{
   display:grid;
-  grid-template-columns: 1fr 60rem 1fr;
+  grid-template-columns: 55px 60rem auto;
   min-height:calc(100vh);
   grid-template-rows:  max-content auto  60px;
   grid-template-areas:
@@ -76,11 +76,12 @@ nav{
   grid-area:nav;
   display:flex;
   flex-direction:column;
-  justify-content:space-between;
+  justify-content:start;
   align-content:center;
   margin-right:7.5px;
   top:0;
   position:sticky;
+  height:fit-content;
 }
 
 .nav-button{
@@ -93,6 +94,7 @@ nav{
   border:2px solid slategray;
   border-radius:20px;
   overflow:hidden;
+  margin-bottom:10px;
 }
 
 a:hover{
