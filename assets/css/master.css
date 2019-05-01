@@ -20,7 +20,7 @@ body, html{
 
 body{
   display:grid;
-  grid-template-columns: 55px 60rem auto;
+  grid-template-columns: auto 60rem auto;
   min-height:calc(100vh);
   grid-template-rows:  max-content auto  60px;
   grid-template-areas:
