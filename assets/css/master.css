@@ -1,4 +1,6 @@
 :root{
+  --color-white-a: rgba(240,240,240, .5);
+  --color-grey-a: rgba(100,100,100, .5);
   --color-green-a: rgba(34,139,34, .5);
   --color-green: rgba(34,139,34, 1);
   --color-blue-a: rgba(34, 34, 139, .5);
@@ -34,8 +36,10 @@ body{
 Head
 ***********************************/
 header{
-grid-area:header;
+  grid-area:header;
+
 }
+
 
 .top--image{
   width:100%;
@@ -44,12 +48,12 @@ grid-area:header;
   position:relative;
 }
 
-.top--image:after{
-  content:' ';
-  height:auto;
-  width:100%;
-  background-color:black;
+header::after{
+  content:"Celtic Inspirations In Games";
   position:absolute;
+  top:0;
+  width:100%;
+  text-align:center;
 }
 
 /***********************************
@@ -63,6 +67,16 @@ main{
 p{
   text-indent: 3rem;
   max-width: calc(1rem * 60);
+}
+
+.intro-block{
+  background-color:var(--color-white-a);
+  padding:5px;
+  border:2.5px var(--color-grey-a) solid;
+}
+
+.section-start{
+  margin-top:200px;
 }
 
 .game-container{
