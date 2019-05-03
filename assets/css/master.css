@@ -178,10 +178,13 @@ p{
 
 .resources ul{
   list-style: none;
+
 }
 
-.resources ul::before{
+.resources ul li::before{
   content:"> ";
+  top:0;
+  left:-20px;
 }
 /***********************************
 Nav-Bar
