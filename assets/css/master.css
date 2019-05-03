@@ -228,6 +228,7 @@ Footer
 ***********************************/
 footer{
   grid-area:footer;
+  padding-top:3rem;
 }
 
 .footpad-r{
