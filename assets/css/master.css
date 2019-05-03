@@ -1,5 +1,6 @@
 :root{
   --color-green-a: rgba(34,139,34, .5);
+  --color-green: rgba(34,139,34, 1);
   --color-blue-a: rgba(34, 34, 139, .5);
   --color-blue-b: rgba(34, 34, 139, .25);
 }
@@ -57,13 +58,86 @@ Main Content
 main{
   grid-area:main;
   min-height: calc(55px * 4);
-  max-width: calc(1rem * 60);
 }
 
 p{
   text-indent: 3rem;
+  max-width: calc(1rem * 60);
 }
 
+.game-container{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height:fit-content;
+  height:250px;
+  flex-wrap: wrap;
+}
+
+.game-container a{
+  height:300px;
+  width: 300px;
+  border:3.5px black solid;
+  border-radius:25px;
+  text-align: center;
+  text-shadow:white 1px 1px 5px;
+  font-weight:600;
+  margin-top:5px;
+}
+
+.game-container a:hover{
+  border:3.5px white solid;
+  cursor: pointer;
+}
+
+#dage-table{
+  background-image: url(../../assets/images/dage-table.jpg);
+  background-size:cover;
+  background-position:top;
+}
+
+#dnd-table{
+  background-image: url(../../assets/images/dnd-table.jpg);
+  background-size:cover;
+  background-position:top;
+}
+
+#wod-table{
+  background-image: url(../../assets/images/wod-table.png);
+  background-size:cover;
+  background-position:center;
+  background-position-x:0;
+}
+
+#gurps-table{
+  background-image: url(../../assets/images/gurps-table.jpg);
+  background-size:cover;
+  background-position:unset;
+}
+
+#digi-video{
+  background-image: url(../../assets/images/digi-video.jpg);
+  background-size:cover;
+  background-position:right;
+}
+
+#dage-video{
+  background-image: url(../../assets/images/dage-video.jpg);
+  background-size:cover;
+  background-position:top;
+}
+
+#loz-video{
+  background-image: url(../../assets/images/loz-video.jpg);
+  background-size:cover;
+  background-position:left;
+}
+
+#mab-video{
+  background-image: url(../../assets/images/mab-video.jpg);
+  background-size:cover;
+  background-position:top;
+}
 /***********************************
 Nav-Bar
 ***********************************/
@@ -80,7 +154,7 @@ nav{
   justify-content:start;
   align-content:center;
   margin-right:7.5px;
-  top:0;
+  top:10px;
   position:sticky;
   height:fit-content;
 }
