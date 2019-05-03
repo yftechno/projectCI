@@ -29,7 +29,7 @@ body{
   grid-template-rows:  max-content auto  60px;
   grid-template-areas:
     "header header header"
-    "nav main-1 main-2"
+    "nav main main"
     "footpad-l footer footpad-r";
 }
 
@@ -60,13 +60,8 @@ header::after{
 /***********************************
 Main Content
 ***********************************/
-.main-1{
-  grid-area:main-1;
-  min-height: calc(55px * 4);
-}
-
-.main-2{
-  grid-area:main-2;
+.main{
+  grid-area:main;
   min-height: calc(55px * 4);
 }
 
